@@ -1,7 +1,7 @@
 ion-input.custom {
   --background: #f1f1f1;
-  --color: #fff;
-  --placeholder-color: #ddd;
+  --color: #000;
+  --placeholder-color: #111;
   --placeholder-opacity: 0.8;
 
   --padding-bottom: 10px;
@@ -10,11 +10,11 @@ ion-input.custom {
   --padding-top: 10px;
 
   --border-radius: 8px;
-  --border-width: 1px;
+  --border-width: 0;
   border: 0;
 }
 
 ion-input.custom .helper-text,
 ion-input.custom .counter {
-  color: var(--ion-color-step-700, #373737);
+  color: var(--ion-color-step-700, red);
 }
